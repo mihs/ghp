@@ -1,0 +1,8 @@
+.cv-embedded {
+    height: 70vh;
+    width: 100%;
+}
+
+img.about-photo {
+    float: right
+}

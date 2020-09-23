@@ -1,0 +1,49 @@
+baseURL = "https://mihs.github.io"
+languageCode = "en-us"
+title = "Mihnea Scafeş"
+theme = "loveit"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+
+  defaulttheme = "dark"
+
+  [params.social]
+    linkedin = "mihnea-scafes-a1b46969"
+    github = "mihs"
+    email = "mihnea.scafes+site@gmail.com"
+
+  [params.home.profile]
+      title = "Mihnea Scafeş"
+      subtitle = "Backend Software Engineer"
+      social = "yes"
+      avatarURL = "avatar-blue.jpg"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "About"
+    url = "/about"
+    # title will be shown when you hover on this menu link
+    title = "About"
+    weight = 1
+  [[menu.main]]
+    identifier = "cv"
+    pre = ""
+    post = ""
+    name = "CV/Resume"
+    url = "/cv"
+    title = "CV"
+    weight = 2
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
