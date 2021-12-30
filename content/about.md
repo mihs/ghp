@@ -12,7 +12,7 @@ acquiring fundamental knowledge and on how technologies work to achieve a high
 level of understanding.
 
 I am actively involved in technical design and implementation, architecture,
-process automation, infrastructure and also in the direction of the product.
+infrastructure, automations and product direction.
 
 Interests:
 * application and system programming
